@@ -1,10 +1,13 @@
 import './App.css';
-
+//element={}
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' /> 
+      </Routes>
+    </Router>
   );
 }
 
